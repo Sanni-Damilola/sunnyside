@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+}
+
+// body
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.background{
+    // background-image: url("./html-images/image-gallery-cone-removebg-preview.png");
+    width: 100%;
+    height: 600px;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    background-color: rgba(199, 5, 44, 0.979);
+    flex-direction: column;
+    position: relative;
+}
+// header_wrapper
+.header_wrapper{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+    
+// header
+    .header{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+        // logo
+        .logo{
+            font-size: 15px;
+            font-weight: bolder;
+            color: #F7FCFF;
+        }
+
+        // navigation_wrapper
+        .navigation{
+            width: 35%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
+
+            // nav
+            div{
+                color: white;
+                font-weight: lighter;
+                font-size: 20px;
+                text-transform: capitalize;
+            }
+
+            // button
+            button{
+                padding: 23px 30px;
+                background-color: #F7FCFF;
+                border: 0;
+                outline: none;
+                border-radius: 50px;
+                text-transform: uppercase;
+                font-weight: bolder;
+                color: #404040;
+
+            }
+        }
+    }
+    
+}
+
+
+ // we are creative wrapper
+ .wrapper{
+    // margin-top: 50px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // we are creative
+    .text{
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        align-items: center;
+        font-size: 55px;
+        text-transform: uppercase;
+        color: #F7FCFF;
+    }
+}
+
+// drop_down
+.drop_down{
+    top: 300px;
+    left: 616px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.ice_cream{
+    height: 340px;
+    position: absolute;
+    top: 260px;
+    left: 495px;
+}
+
+
+// egg_wrapper
+.egg_and_cup-wrapper{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #FFFBF8;
+
+
+
+    // text_wrapper
+    .text_wrapper{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        // text
+        .text{
+            width: 70%;
+            height: 50%;
+            flex-direction: column;
+            display: flex;
+            justify-content: space-between;
+
+            b{
+                font-size: 3em;
+                text-transform: lowercase;
+                font-weight: bolder;
+                color: #444C58;
+            }
+
+            p{
+                font-weight: bold;
+                color: darken($color: #000000, $amount: 0);
+                opacity: 90%;
+            }
+
+            span{
+                font-size: 15px;
+                font-weight: bolder;
+                text-transform: uppercase;
+                border-bottom: 4px solid #FED201;
+                width: 105px;
+            }
+
+          #span_2{
+                    font-size: 15px;
+                    font-weight: bolder;
+                    text-transform: uppercase;
+                    border-bottom: 4px solid #FE7563;
+                    width: 105px;
+            }
+           
+        }
+
+        
+    }
+
+    // egg image
+    .egg_image{
+        width: 50%;
+        height: 100%;
+        object-fit: contain;
+        display: flex;
+
+        .egg{
+            width: 100%;
+            height: 100%;
+            
+        }
+    }
+
+    
+}
